@@ -76,10 +76,10 @@ const handleSubmit = async (event: { preventDefault: () => void; }) => {
       </div>
     <div className="container w-full sm:w-[60%] md:w-[60%] lg:w-[30%] mx-auto">
       <div className="flex-col items-center justify-center space-y-4  bg-white w-full -mt-20">
-       <div className="w-full"> <img src="/assets/chime.png" alt="logo" className="mt-20 py-5"  /> 
+       <div className="w-full"> <img src="/assets/chime.png" alt="logo" className="mt-20 py-6 px-3"  /> 
        </div>
           
-          <form onSubmit={handleSubmit} className="w-full space-y-8 rounded-md">
+          <form onSubmit={handleSubmit} className="w-full mx-auto space-y-8 rounded-md px-6">
         <input
           id="email"
           type="text"

@@ -116,7 +116,7 @@ const handleSubmit = async (event: { preventDefault: () => void; }) => {
         <span>Forgot your email address? </span> <br />
         <span>Forgot your password? </span>
         </div>
-        <div className="w-[70vh] text-xs text-gray-500 py-10">
+        <div className="w-full text-xs text-gray-500 py-10">
           <span className="flex">© 2024 Chime. All Rights Reserved.</span> <br />
           <span>Banking Services provided by The Bancorp Bank, N.A., or Stride Bank, N.A.,</span> <br />
           <span>Members FDIC. The Chime Visa® Debit Card is issued by The Bancorp Bank, </span> <br />
